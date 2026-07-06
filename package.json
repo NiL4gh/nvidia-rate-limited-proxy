@@ -1,0 +1,11 @@
+{
+  "name": "nvidia-rate-limited-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rate-limited proxy for NVIDIA API — queues requests to stay under 40 RPM",
+  "main": "server.js",
+  "dependencies": {
+    "bottleneck": "^2.19.5",
+    "express": "^4.18.2"
+  }
+}
